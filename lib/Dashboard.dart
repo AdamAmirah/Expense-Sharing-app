@@ -119,7 +119,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey[50],
+        backgroundColor: Colors.white,
         appBar: AppBar(
           actions: [
             FlatButton(
@@ -156,7 +156,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             : Column(children: <Widget>[
                 const SizedBox(height: 20),
                 Container(
-                    height: 60,
+                    height: 90,
                     alignment: Alignment.center,
                     child: Card(
                         shape: RoundedRectangleBorder(

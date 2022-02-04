@@ -74,7 +74,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
           preferredSize: const Size.fromHeight(4.0),
         ),
         title: const Text(
-          "New Tab",
+          "New Expense",
           style: TextStyle(
             color: Colors.black,
             fontSize: 25,

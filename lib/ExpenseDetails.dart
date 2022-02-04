@@ -41,7 +41,7 @@ class _Expense_detailsState extends State<Expense_details> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey[900],
+        backgroundColor: Colors.white,
         appBar: AppBar(
           bottom: PreferredSize(
             child: Container(
@@ -61,9 +61,7 @@ class _Expense_detailsState extends State<Expense_details> {
         ),
         body: SafeArea(
           child: Container(
-            decoration: BoxDecoration(
-              color: Colors.grey[200],
-            ),
+            decoration: BoxDecoration(color: Colors.white),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
